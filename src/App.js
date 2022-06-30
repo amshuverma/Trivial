@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import PlayIcon from "./assets/icons/PlayIcon";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-trivial-yellow-1 w-screen h-screen">
+      <h1
+        className="bg-red-400
+      text-2xl  flex justify-center items-center border border-3 border-3 text-red-900"
+      >
+        <PlayIcon />
+      </h1>
     </div>
   );
 }
