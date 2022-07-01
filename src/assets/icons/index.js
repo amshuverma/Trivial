@@ -1,1 +1,2 @@
-export * from "./PlayIcon";
+export { PlayIcon } from "./PlayIcon";
+export { MenuIcon } from "./MenuIcon";

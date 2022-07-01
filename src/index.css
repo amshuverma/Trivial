@@ -15,3 +15,11 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.flex-row-center {
+  @apply flex justify-center items-center
+}
+
+.flex-col-center {
+  @apply flex flex-col justify-center items-center
+}

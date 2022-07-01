@@ -1,8 +1,8 @@
 import React from "react";
 
-const PlayIcon = () => {
+export const PlayIcon = () => {
   return (
-    <div className="text-red-500">
+    <div className="text-trivial-yellow-5">
       <svg
         id="Iconly_Bulk_Play"
         data-name="Iconly/Bulk/Play"
@@ -30,5 +30,3 @@ const PlayIcon = () => {
     </div>
   );
 };
-
-export default PlayIcon;
