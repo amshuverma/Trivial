@@ -2,6 +2,15 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontSize: {
+        "trivial-sm": "0.703125rem",
+        "trivial-md": "0.75rem",
+        "trivial-lg": "0.84375rem",
+        "trivial-xl": "2.34375rem",
+        "trivial-emoji-sm": "0.984375rem",
+        "trivial-emoji-md": "1.3125rem",
+        "trivial-emoji-lg": "3.28125rem",
+      },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
         clash: ["Clash Grotesk"],
@@ -16,10 +25,11 @@ module.exports = {
           5: "#D19B22",
         },
         "trivial-gray": {
-          1: "#ADADA5",
-          2: "#8C8C88",
-          3: "#666662",
-          4: "#262621",
+          1: "#EEECEC",
+          2: "#ADADA5",
+          3: "#8C8C88",
+          4: "#666662",
+          5: "#262621",
         },
       },
     },

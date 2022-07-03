@@ -17,9 +17,17 @@ code {
 @tailwind utilities;
 
 .flex-row-center {
-  @apply flex justify-center items-center
+  @apply flex justify-center items-center;
 }
 
 .flex-col-center {
-  @apply flex flex-col justify-center items-center
+  @apply flex flex-col justify-center items-center;
+}
+
+.clash-wide {
+  @apply font-clash tracking-wide;
+}
+
+.inter-tight {
+  @apply font-inter tracking-tight;
 }
