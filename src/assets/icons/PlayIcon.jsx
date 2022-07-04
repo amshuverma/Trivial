@@ -8,8 +8,8 @@ export const PlayIcon = () => {
         data-name="Iconly/Bulk/Play"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
-        width="30"
-        height="30"
+        width="26"
+        height="26"
         viewBox="0 0 24 24"
       >
         <g id="Play" transform="translate(2 2)">

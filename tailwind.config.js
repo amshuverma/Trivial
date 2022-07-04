@@ -9,7 +9,7 @@ module.exports = {
         "trivial-xl": "2.34375rem",
         "trivial-emoji-sm": "0.984375rem",
         "trivial-emoji-md": "1.3125rem",
-        "trivial-emoji-lg": "3.28125rem",
+        "trivial-emoji-lg": "3.281rem",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
@@ -34,5 +34,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };
