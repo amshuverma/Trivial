@@ -2,6 +2,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      borderRadius: {
+        "trivial-default": "0.46875rem",
+      },
       fontSize: {
         "trivial-sm": "0.703125rem",
         "trivial-md": "0.75rem",
@@ -30,6 +33,10 @@ module.exports = {
           3: "#8C8C88",
           4: "#666662",
           5: "#262621",
+        },
+        "trivial-white": {
+          1: "#FEFEFE",
+          2: "#FCFCFA",
         },
       },
     },

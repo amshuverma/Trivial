@@ -5,7 +5,7 @@ import AwardWrapper from "./AwardWrapper";
 
 const SidebarContainer = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-[2.203rem]">
       <Profile />
       <AwardWrapper />
     </div>

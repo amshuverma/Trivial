@@ -18,12 +18,12 @@ const Profile = ({
   name = "Jack Sparrow",
   country = "Netherlands",
   age = "18",
-  gender = "Neutral",
+  gender = "Male",
 }) => {
   gender = gender.toLowerCase();
 
   return (
-    <div className="w-[11.31rem] h-[13.69rem] mt-20 ml-20 flex flex-col items-center bg-gradient-to-b from-trivial-yellow-1 to-white text-sm rounded-[0.62rem]">
+    <div className="w-[10.641rem] h-[13.69rem] flex flex-col items-center trivial-gradient text-sm rounded-trivial-default">
       {/* Profile picture */}
       <div className="mt-[-2.3rem] rotate-[-4deg]">
         <img

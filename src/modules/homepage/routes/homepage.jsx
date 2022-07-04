@@ -5,10 +5,10 @@ import TriviaContainer from "../components/TriviaContainer";
 
 const Homepage = () => {
   return (
-    <div className="min-w-[44.672rem] flex justify-start gap-2">
+    <main className="w-[48.750rem] h-auto overflow-scroll flex justify-start gap-[1.641rem]">
       <SidebarContainer />
       <TriviaContainer />
-    </div>
+    </main>
   );
 };
 
