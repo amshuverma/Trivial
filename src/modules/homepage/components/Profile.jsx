@@ -23,7 +23,7 @@ const Profile = ({
   gender = gender.toLowerCase();
 
   return (
-    <div className="w-[10.641rem] h-[13.69rem] flex flex-col items-center trivial-gradient text-sm rounded-trivial-default">
+    <div className="w-[10.641rem] h-[13.69rem] overflow-visible flex flex-col items-center trivial-gradient text-sm rounded-trivial-default">
       {/* Profile picture */}
       <div className="mt-[-2.3rem] rotate-[-4deg]">
         <img

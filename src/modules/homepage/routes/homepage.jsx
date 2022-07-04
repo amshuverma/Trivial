@@ -5,9 +5,11 @@ import TriviaContainer from "../components/TriviaContainer";
 
 const Homepage = () => {
   return (
-    <main className="w-[48.750rem] h-auto overflow-scroll flex justify-start gap-[1.641rem]">
+    <main className="w-[48.750rem] overflow-hidden h-auto flex justify-start gap-[1.641rem] pt-[2.531rem]">
       <SidebarContainer />
-      <TriviaContainer />
+      <div className="overflow-auto">
+        <TriviaContainer />
+      </div>
     </main>
   );
 };

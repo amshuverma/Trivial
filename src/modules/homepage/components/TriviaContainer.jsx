@@ -58,12 +58,12 @@ const trivias = [
 
 const TriviaContainer = () => {
   return (
-    <div className="h-full">
+    <div className="min-h-full overflow-hidden">
       <div className="flex justify-between">
         <SearchBar />
         <FilterIcon />
       </div>
-      <div className="mt-5 flex flex-col gap-[1.641rem] max-h-full overflow-auto">
+      <div className="mt-5 flex flex-col overflow-auto gap-[1.641rem] h-full">
         {trivias.map((trivia) => {
           return (
             <Trivia
