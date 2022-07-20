@@ -1,8 +1,6 @@
-import React from "react";
-
-const FilterIcon = () => {
+export const FilterIcon = () => {
   return (
-    <div className="flex justify-center items-center text-trivial-yellow-5 px-[0.9rem] pt-[0.9rem] pb-[0.8rem] bg-trivial-white-1 rounded-trivial-default border border-trivial-yellow-2">
+    <div className="flex justify-center items-center text-trivial-yellow-6 px-[0.9rem] pt-[0.9rem] pb-[0.8rem] bg-trivial-white-1 rounded-trivial-default border border-trivial-yellow-2">
       <svg
         id="Iconly_Bulk_Filter_2"
         data-name="Iconly/Bulk/Filter 2"
@@ -31,5 +29,3 @@ const FilterIcon = () => {
     </div>
   );
 };
-
-export default FilterIcon;

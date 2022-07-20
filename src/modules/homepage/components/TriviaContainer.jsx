@@ -6,6 +6,13 @@ import FilterIcon from "@/assets/icons/FilterIcon";
 
 const trivias = [
   {
+    emoji: "🎬",
+    title: "Movies & Tv",
+    description:
+      "From Beethoven to Justin Bieber, play quizzes about your favourite music.",
+    link: "",
+  },
+  {
     emoji: "🎷",
     title: "Music",
     description:
@@ -47,23 +54,12 @@ const trivias = [
       "From Beethoven to Justin Bieber, play quizzes about your favourite music.",
     link: "",
   },
-  {
-    emoji: "🎨",
-    title: "Art",
-    description:
-      "From Beethoven to Justin Bieber, play quizzes about your favourite music.",
-    link: "",
-  },
 ];
 
 const TriviaContainer = () => {
   return (
     <div className="min-h-full overflow-hidden">
-      <div className="flex justify-between">
-        <SearchBar />
-        <FilterIcon />
-      </div>
-      <div className="mt-5 flex flex-col overflow-auto gap-[1.641rem] h-full">
+      <div className="flex flex-col overflow-auto h-full">
         {trivias.map((trivia) => {
           return (
             <Trivia

@@ -1,8 +1,6 @@
-import React from "react";
-
 export const SearchIcon = () => {
   return (
-    <div className="text-trivial-yellow-5">
+    <div className="text-trivial-yellow-6">
       <svg
         id="Iconly_Bulk_Search"
         data-name="Iconly/Bulk/Search"

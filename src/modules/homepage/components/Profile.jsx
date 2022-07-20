@@ -19,6 +19,7 @@ const Profile = ({
   country = "Netherlands",
   age = "18",
   gender = "Male",
+  onUpdate = () => {},
 }) => {
   gender = gender.toLowerCase();
 
@@ -50,7 +51,10 @@ const Profile = ({
         </p>
       </div>
 
-      <div className="text-trivial-md font-semibold mt-4 text-blue-500">
+      <div
+        onClick={onUpdate}
+        className="text-trivial-md font-semibold mt-4 text-blue-500"
+      >
         <p>Update</p>
       </div>
     </div>

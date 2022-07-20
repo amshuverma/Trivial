@@ -15,7 +15,7 @@ const AwardWrapper = ({ awardList = ["⭐️", "👋", "🦧"] }) => {
         })}
       </div>
       <div className="text-trivial-md font-semibold font-inter mt-4 text-blue-500">
-        <p>Update</p>
+        <p>See all</p>
       </div>
     </div>
   );

@@ -31,9 +31,9 @@ code {
 }
 
 .inter-tight {
-  @apply font-inter tracking-tight;
+  @apply font-inter;
 }
 
 .trivial-gradient {
-  @apply bg-gradient-to-b from-trivial-yellow-1  to-trivial-white-2;
+  @apply bg-gradient-to-b from-trivial-yellow-1  to-white;
 }

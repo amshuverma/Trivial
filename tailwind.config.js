@@ -25,7 +25,8 @@ module.exports = {
           2: "#E7E0D1",
           3: "#EDDCB3",
           4: "#F8C47C",
-          5: "#D19B22",
+          5: "#F5C456",
+          6: "#D19B22",
         },
         "trivial-gray": {
           1: "#EEECEC",
@@ -38,6 +39,13 @@ module.exports = {
           1: "#FEFEFE",
           2: "#FCFCFA",
         },
+      },
+      boxShadow: {
+        "trivial-inner-1": "inset 0 1px 3px rgb(255 255 255 / 0.3)",
+        "trivial-inner-2": "inset 0 1px 4px rgb(255 255 255 / 0.1)",
+      },
+      dropShadow: {
+        "trivial-button": "0 0.5px 0.5px rgb(0 0 0 / 0.35)",
       },
     },
   },

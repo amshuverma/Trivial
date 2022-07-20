@@ -1,8 +1,6 @@
-import React from "react";
-
 export const MenuIcon = () => {
   return (
-    <div className="p-[7px] flex-row-center bg-white text-trivial-yellow-5 border border-trivial-yellow-2 rounded-trivial-default">
+    <div className="p-[7px] flex-row-center bg-white text-trivial-yellow-6 border border-trivial-yellow-2 rounded-trivial-default">
       <svg
         id="Iconly_Bulk_Category"
         data-name="Iconly/Bulk/Category"

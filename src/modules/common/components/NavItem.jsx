@@ -9,7 +9,7 @@ export const NavItem = ({ name, emoji, isSelected = false }) => {
         isSelected ? "bg-trivial-yellow-2" : ""
       )}
     >
-      <span>{emoji}</span>
+      <span className="text-md">{emoji}</span>
       <p>{name}</p>
     </div>
   );
