@@ -1,6 +1,8 @@
+export { EmailIcon } from "./EmailIcon";
 export { FilterIcon } from "./FilterIcon";
 export { MenuIcon } from "./MenuIcon";
 export { ModalCloseIcon } from "./ModalCloseIcon";
+export { PaperIcon } from "./PaperIcon";
 export { PlayIcon } from "./PlayIcon";
 export { ProtectedIcon } from "./ProtectedIcon";
 export { SearchIcon } from "./SearchIcon";

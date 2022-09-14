@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { axios } from "@/libs/axios";
+
 import { ProtectedIcon, UserIcon } from "@/assets/icons";
 import { ButtonPrimary, Input } from "@/modules/common/components";
 
@@ -16,9 +18,17 @@ const Login = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(JSON.stringify(formData));
+    try {
+      const response = await axios.post("/account/guardian/signup/", formData);
+      if (response.status === 404) {
+        console.log("hi");
+      }
+    } catch (err) {
+      console.log("hi");
+    }
   };
 
   return (
